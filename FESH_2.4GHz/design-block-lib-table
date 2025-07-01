@@ -1,0 +1,4 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "FESH")(type "KiCad")(uri "${KIPRJMOD}/FESH.kicad_blocks")(options "")(descr "RF Frontend Hydra Sensor"))
+)

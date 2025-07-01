@@ -1,0 +1,100 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "05f34a75-3084-4289-9196-d8e864502ec7")
+	(paper "A4")
+	(title_block
+		(title "${BOARD}")
+		(date "2025-06-26")
+		(rev "${VERSION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(sheet
+		(at 71.12 72.39)
+		(size 47.625 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d3ec831-3c07-44ca-8851-afb9667385b3")
+		(property "Sheetname" "2.4GHz Frontend"
+			(at 71.12 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_frontend.kicad_sch"
+			(at 71.12 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FESH_2.4GHz"
+				(path "/f391ab3e-079d-4a20-ab1d-38a7d6e19853/2ce1b5e7-8dc5-4740-8bc7-f57a590c2c26"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 71.755)
+		(size 33.655 14.605)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40b350b2-9555-4232-988a-9f578068569f")
+		(property "Sheetname" "Power Supply"
+			(at 132.08 71.0434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 132.08 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FESH_2.4GHz"
+				(path "/f391ab3e-079d-4a20-ab1d-38a7d6e19853/2ce1b5e7-8dc5-4740-8bc7-f57a590c2c26"
+					(page "3")
+				)
+			)
+		)
+	)
+)
